@@ -1,0 +1,11 @@
+class F 
+{
+	public static void main(String[] args) 
+	{
+		int i = 0;
+
+		int j = i-- + i + i-- + i;//post decrement
+		System.out.println(i);//-2
+		System.out.println(j);//-4
+	}
+}
